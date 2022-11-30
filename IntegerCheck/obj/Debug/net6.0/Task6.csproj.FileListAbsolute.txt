@@ -1,0 +1,15 @@
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\bin\Debug\net6.0\Task6.exe
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\bin\Debug\net6.0\Task6.deps.json
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\bin\Debug\net6.0\Task6.runtimeconfig.json
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\bin\Debug\net6.0\Task6.dll
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\bin\Debug\net6.0\Task6.pdb
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.csproj.AssemblyReference.cache
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.AssemblyInfoInputs.cache
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.AssemblyInfo.cs
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.csproj.CoreCompileInputs.cache
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.dll
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\refint\Task6.dll
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.pdb
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\Task6.genruntimeconfig.cache
+D:\SPProjRepo\SPOfficeRepo\IntegerCheck\obj\Debug\net6.0\ref\Task6.dll

@@ -1,0 +1,15 @@
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\bin\Debug\net6.0\Task9.exe
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\bin\Debug\net6.0\Task9.deps.json
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\bin\Debug\net6.0\Task9.runtimeconfig.json
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\bin\Debug\net6.0\Task9.dll
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\bin\Debug\net6.0\Task9.pdb
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.csproj.AssemblyReference.cache
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.AssemblyInfoInputs.cache
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.AssemblyInfo.cs
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.csproj.CoreCompileInputs.cache
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.dll
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\refint\Task9.dll
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.pdb
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\Task9.genruntimeconfig.cache
+D:\SPProjRepo\SPOfficeRepo\EmailAPI\obj\Debug\net6.0\ref\Task9.dll
