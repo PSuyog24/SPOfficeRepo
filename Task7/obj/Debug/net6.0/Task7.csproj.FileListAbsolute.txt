@@ -1,0 +1,15 @@
+D:\SPProjRepo\SPOfficeRepo\Task7\bin\Debug\net6.0\Task7.exe
+D:\SPProjRepo\SPOfficeRepo\Task7\bin\Debug\net6.0\Task7.deps.json
+D:\SPProjRepo\SPOfficeRepo\Task7\bin\Debug\net6.0\Task7.runtimeconfig.json
+D:\SPProjRepo\SPOfficeRepo\Task7\bin\Debug\net6.0\Task7.dll
+D:\SPProjRepo\SPOfficeRepo\Task7\bin\Debug\net6.0\Task7.pdb
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.csproj.AssemblyReference.cache
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.AssemblyInfoInputs.cache
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.AssemblyInfo.cs
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.csproj.CoreCompileInputs.cache
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.dll
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\refint\Task7.dll
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.pdb
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\Task7.genruntimeconfig.cache
+D:\SPProjRepo\SPOfficeRepo\Task7\obj\Debug\net6.0\ref\Task7.dll
