@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task16", "..\WebApp\Task16.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6", "..\IntegerCheck\Task6.csproj", "{4C248C00-9B15-4232-A11B-61E721F1A591}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "..\Task5\Task5.csproj", "{DA2ECAEC-5586-4301-8095-1DD5D36F224D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4C248C00-9B15-4232-A11B-61E721F1A591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C248C00-9B15-4232-A11B-61E721F1A591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C248C00-9B15-4232-A11B-61E721F1A591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2ECAEC-5586-4301-8095-1DD5D36F224D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2ECAEC-5586-4301-8095-1DD5D36F224D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2ECAEC-5586-4301-8095-1DD5D36F224D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2ECAEC-5586-4301-8095-1DD5D36F224D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
