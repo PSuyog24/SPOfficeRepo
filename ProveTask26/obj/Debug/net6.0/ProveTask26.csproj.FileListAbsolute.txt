@@ -1,0 +1,15 @@
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\bin\Debug\net6.0\ProveTask26.exe
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\bin\Debug\net6.0\ProveTask26.deps.json
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\bin\Debug\net6.0\ProveTask26.runtimeconfig.json
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\bin\Debug\net6.0\ProveTask26.dll
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\bin\Debug\net6.0\ProveTask26.pdb
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.csproj.AssemblyReference.cache
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.AssemblyInfoInputs.cache
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.AssemblyInfo.cs
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.csproj.CoreCompileInputs.cache
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.dll
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\refint\ProveTask26.dll
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.pdb
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ProveTask26.genruntimeconfig.cache
+D:\SPProjRepo\SPOfficeRepo\ProveTask26\obj\Debug\net6.0\ref\ProveTask26.dll

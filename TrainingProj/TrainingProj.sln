@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6", "..\IntegerCheck\Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5", "..\Task5\Task5.csproj", "{DA2ECAEC-5586-4301-8095-1DD5D36F224D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7", "..\Task7\Task7.csproj", "{97FC064D-C023-4A85-87B6-71A06C0A38C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task7", "..\Task7\Task7.csproj", "{97FC064D-C023-4A85-87B6-71A06C0A38C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProveTask26", "..\ProveTask26\ProveTask26.csproj", "{BE6085C1-E06B-4745-A6EE-81FEC45B485C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{97FC064D-C023-4A85-87B6-71A06C0A38C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97FC064D-C023-4A85-87B6-71A06C0A38C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97FC064D-C023-4A85-87B6-71A06C0A38C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6085C1-E06B-4745-A6EE-81FEC45B485C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6085C1-E06B-4745-A6EE-81FEC45B485C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6085C1-E06B-4745-A6EE-81FEC45B485C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6085C1-E06B-4745-A6EE-81FEC45B485C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
