@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="card bg-light">
+        <h4 class="card-header">Payment Form</h4>
+        <div class="card-body">
+        <label>User Name</label>
+        <input type="text" placeholder="Enter User Name" />
+        <br />
+        <br />
+        <label>Payment Method</label>
+        <select id="select1" name="payMode" asp-items="@ViewBag.payMode" onchange="fnChange()"></select>
+        <br />
+        <br />
+        <label id="lbl1" style="display:none;"></label>
+        <input id="txt1"  type="text" style="display:none;" />
+        <button id="btn1" class="btn-primary" style="display:none;" onclick="fnValidate()">Validate</button>
+        <label id="lbl2" style="display:none;"></label>
+        </div>
+    </div>
+</div>
