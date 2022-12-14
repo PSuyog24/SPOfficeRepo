@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model FlowerClass
+
+<script>
+    function ChangeImg(){
+        var getValue = document.querySelector('input[name="FlowerName"]:checked').value;
+        var varImg = document.getElementById('imgView');
+
+        if(getValue == '1'){
+            varImg.src = 'Images/rose.jpg';
+        }
+        else if(getValue == '2'){
+            varImg.src = 'Images/marigold.jpg';
+        }
+        else if(getValue == '3'){
+            varImg.src = 'Images/tulip.jpg';
+        }
+    }
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h2>Form</h2>
+@using (Html.BeginForm())
+{
+    <div class="form-control">
+        <h4>Flower Model</h4>
+        <hr />
+        <div class="form-text">
+            @Html.RadioButtonFor(m => m.FlowerName, "1")Rose
+            <br />
+            @Html.RadioButtonFor(m => m.FlowerName, "2")Marigold
+            <br />
+            @Html.RadioButtonFor(m => m.FlowerName, "3")Tulip
+        </div>
+        <div class="text-center">
+            <input type="button" class="btn btn-primary" value="Submit" onclick="ChangeImg();" />
+        </div>
+    </div>
+    <div class="text-center">
+        <img id="imgView" width="250" height="250"/>
+    </div>
+}
