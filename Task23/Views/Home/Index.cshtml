@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+    function removeDuplicateCharacters(string) {
+        return string
+        .split('')
+        .filter(function(item, pos, self) {
+            return self.indexOf(item) == pos;
+        })
+        .join('');
+    }
+    function numVerify(){
+        var txtvar = document.getElementById('txtNumber').value;
+
+        document.getElementById('txtNumber').value = removeDuplicateCharacters(txtvar);
+    }
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table align="center">
+        <tr>
+            <td>
+                @Html.Label("lblNumber","Enter the Number : ",new {@class = "label label-primary"})
+            </td>
+            <td>
+                @Html.TextBox("txtNumber",null, new {@class = "form-control", @type = "number"})
+            </td>
+        </tr>
+    </table>
+    <div class="text-center">
+        <input class="btn btn-primary" type = "button" value="Check" id = "btnVerify" onclick="numVerify();" />
+    </div>
+</div>
