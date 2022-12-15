@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model DataClass
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="text-center">
+    <h1 class="display-4">Operations</h1>
+    @using (@Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <td>
+                    @Html.LabelFor(m=>m.FirstNumber,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m=>m.FirstNumber,new { @class = "form-control" })
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m=>m.SecondNumber,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m=>m.SecondNumber,new { @class = "form-control" })
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m=>m.Operations,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.DropDownListFor(m => m.SelectedOperation,new SelectList(Model.Operations,"OperationId","Operation",Model.SelectedOperation),"Select Operation")
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Calculate" />
+                </td>
+            </tr>
+        </table>
+    }
+
+</div>
