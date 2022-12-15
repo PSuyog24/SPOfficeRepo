@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\Task23.csproj",
-      "projectName": "Task23",
-      "projectPath": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\Task23.csproj",
+      "projectUniqueName": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\Task22.csproj",
+      "projectName": "Task22",
+      "projectPath": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\Task22.csproj",
       "packagesPath": "C:\\Users\\Tejora\\.nuget\\packages\\",
       "outputPath": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\obj\\",
       "projectStyle": "PackageReference",

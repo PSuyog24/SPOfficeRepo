@@ -43,7 +43,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "..\Task2\Task2.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3", "..\Task3\Task3.csproj", "{D19609F5-F518-4721-BBAB-70D6E34A71A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task23", "..\Task23\Task23.csproj", "{24E2058F-7071-45D3-8A6D-894C49C90C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task22", "..\Task23\Task22.csproj", "{24E2058F-7071-45D3-8A6D-894C49C90C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

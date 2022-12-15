@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Task23.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Task23.bundle.scp.css"
+      "Id": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Task22.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Task22.bundle.scp.css"
     },
     {
       "Id": "D:\\SPProjRepo\\SPOfficeRepo\\Task23\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Task23.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Task22.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Task23.props",
-      "PackagePath": "build\\Task23.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Task22.props",
+      "PackagePath": "build\\Task22.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Task23.props",
-      "PackagePath": "buildMultiTargeting\\Task23.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Task22.props",
+      "PackagePath": "buildMultiTargeting\\Task22.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Task23.props",
-      "PackagePath": "buildTransitive\\Task23.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Task22.props",
+      "PackagePath": "buildTransitive\\Task22.props"
     }
   ],
   "ElementsToRemove": []
