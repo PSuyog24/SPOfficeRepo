@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model FormClass
+
+@using (@Html.BeginForm())
+{
+    <div class="text-center form-text">
+        <h2 class="display-3">User Form</h2>
+        <table align="center" class="table table-bordered">
+            <tr class="table-bordered">
+                <td>
+                    @Html.LabelFor(m=>m.Username,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m=>m.Username,new { @class = "form-control" })
+                </td>
+            </tr>
+            <tr class="table-bordered">
+                <td>
+                    @Html.LabelFor(m=>m.Address,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m=>m.Address,new { @class = "form-control" })
+                </td>
+            </tr>
+            <tr class="table-bordered">
+                <td>
+                    @Html.LabelFor(m=>m.Date,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m=>m.Date,new { @class = "form-control", @type="date" })
+                </td>
+            </tr>
+            <tr class="table-bordered">
+                <td>
+                    @Html.LabelFor(m=>m.Nationality,new { @class = "label label-primary" })
+                </td>
+                <td>
+                    @Html.TextBoxFor(m=>m.Nationality,new { @class = "form-control" })
+                </td>
+            </tr>
+                <tr class="table-bordered">
+                <td>
+                    @Html.LabelFor(m=>m.PrefCountry,new { @class = "label label-primary" })
+                    </td>
+                    <td>
+                    @Html.TextBoxFor(m=>m.PrefCountry,new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr class="table-bordered">
+                    <td>
+                    @Html.LabelFor(m=>m.Skills,new { @class = "label label-primary" })
+                    </td>
+                    <td>
+                    @Html.TextAreaFor(x => x.Skills, 5,90 , null)
+                    </td>
+                </tr>
+        </table>
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+}
+
