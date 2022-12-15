@@ -1,0 +1,8 @@
+D:\SPProjRepo\SPOfficeRepo\Task2\bin\Debug\Task2.exe.config
+D:\SPProjRepo\SPOfficeRepo\Task2\bin\Debug\Task2.exe
+D:\SPProjRepo\SPOfficeRepo\Task2\bin\Debug\Task2.pdb
+D:\SPProjRepo\SPOfficeRepo\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
+D:\SPProjRepo\SPOfficeRepo\Task2\obj\Debug\Task2.csproj.SuggestedBindingRedirects.cache
+D:\SPProjRepo\SPOfficeRepo\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+D:\SPProjRepo\SPOfficeRepo\Task2\obj\Debug\Task2.exe
+D:\SPProjRepo\SPOfficeRepo\Task2\obj\Debug\Task2.pdb
