@@ -10,13 +10,13 @@
         var selectedIndex = document.getElementById("SelectedItemName").value;
 
         if (selectedIndex == "1") {
-            img.src = 'Images\rose.jpg';
+            img.src = '/Images/rose.jpg';
         }
         else if (selectedIndex == "2") {
-            img.src = 'Images\marigold.jpg';
+            img.src = '/Images/marigold.jpg';
         }
         else if (selectedIndex == "3") {
-            img.src = 'Images\tulip.jpg';
+            img.src = '/Images/tulip.jpg';
         }
     }
 </script>
@@ -30,7 +30,7 @@
                 @Html.ListBoxFor(m=>m.SelectedItemName,Model.ItemList, new { Style="width:200px"})
             </td>
             <td>
-                <asp:Image id="viewItem" runat="server"></asp:Image>
+               <img id="viewItem" width="250" height="250" />
             </td>
         </tr>
         <tr>
