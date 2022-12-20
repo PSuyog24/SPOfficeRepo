@@ -45,11 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3", "..\Task3\Task3.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task22", "..\Task23\Task22.csproj", "{24E2058F-7071-45D3-8A6D-894C49C90C95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task23_API", "..\Task23_API\Task23_API.csproj", "{C2F5FF42-8D7F-4238-ABDE-AEB574E28F47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task23_API", "..\Task23_API\Task23_API.csproj", "{C2F5FF42-8D7F-4238-ABDE-AEB574E28F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20", "..\Task20\Task20.csproj", "{0B6FA6D5-EA06-48E5-8B76-2EC50A5C217E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task20", "..\Task20\Task20.csproj", "{0B6FA6D5-EA06-48E5-8B76-2EC50A5C217E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task18", "..\Task18\Task18.csproj", "{675BE9D2-8671-40A3-8A3F-7F6C96E4A37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProveTask25", "..\ProveTask25\ProveTask25.csproj", "{5A7E9418-2058-4EA0-8424-CC58A11CFB81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{675BE9D2-8671-40A3-8A3F-7F6C96E4A37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675BE9D2-8671-40A3-8A3F-7F6C96E4A37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675BE9D2-8671-40A3-8A3F-7F6C96E4A37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7E9418-2058-4EA0-8424-CC58A11CFB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7E9418-2058-4EA0-8424-CC58A11CFB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7E9418-2058-4EA0-8424-CC58A11CFB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7E9418-2058-4EA0-8424-CC58A11CFB81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
