@@ -11,12 +11,15 @@
 
         if (selectedIndex == "1") {
             img.src = '/Images/rose.jpg';
+            document.getElementById('lblCost').innerText = 'Rs.100';
         }
         else if (selectedIndex == "2") {
             img.src = '/Images/marigold.jpg';
+            document.getElementById('lblCost').innerText = 'Rs.20';
         }
         else if (selectedIndex == "3") {
             img.src = '/Images/tulip.jpg';
+            document.getElementById('lblCost').innerText = 'Rs.50';
         }
     }
 </script>
@@ -38,7 +41,7 @@
                 <input type="button" runat="server" value="Get Cost" class="btn btn-primary" onclick="fnSelect();" />
             </td>
             <td>
-                @Html.Label("lblCost",new {@class = "label",@style = "display:none"})
+                <label id="lblCost" class="label-info">--Please select an Item--</label>
             </td>
         </tr>
     </table>
