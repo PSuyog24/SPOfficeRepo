@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Globalization;
 using Task20.Models;
 
 namespace Task20.Controllers
@@ -18,20 +19,42 @@ namespace Task20.Controllers
         {
             FormClass form = new FormClass();
 
+            List<string> lsCountry = new List<string>();
+            CultureInfo[] CInfoList = CultureInfo.GetCultures(CultureTypes.SpecificCultures);
+            foreach(CultureInfo cinfo in CInfoList)
+            {
+                RegionInfo R = new RegionInfo(cinfo.LCID);
+                if (!(lsCountry.Contains(R.EnglishName)))
+                {
+                    lsCountry.Add(R.EnglishName);
+                }
+            }
+
+            lsCountry.Sort();
+            ViewBag.CountryList = lsCountry;
+
             return View();
         }
         [HttpPost]
         public IActionResult Index(FormClass form)
         {
-            CookieOptions nameCookie = new CookieOptions();
+            if (ModelState.IsValid)
+            {
 
-            nameCookie.Expires = DateTime.Now.AddMinutes(5);
+                CookieOptions nameCookie = new CookieOptions();
 
-            Response.Cookies.Append("Username", form.Username, nameCookie);
+                nameCookie.Expires = DateTime.Now.AddMinutes(5);
 
-            Console.WriteLine("Cookie Value : " + Request.Cookies["Username"]);
+                Response.Cookies.Append("Username", form.Username, nameCookie);
 
-            return RedirectToAction("Index");
+                Console.WriteLine("Cookie Value : " + Request.Cookies["Username"]);
+
+                return View();
+            }
+            else
+            {
+                return View();
+            }
         }
 
         public IActionResult Privacy()
